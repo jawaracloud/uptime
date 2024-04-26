@@ -5,6 +5,8 @@ repo: upptime # The name of this repository
 sites:
   - name: Landing Page
     url: https://jawara.cloud
+    expectedStatusCodes:
+      - 200
     
 assignees: # Users to assign downtime issues (optional)
   - mrofisr
@@ -21,7 +23,9 @@ status-website:
     - title: Status
       href: /
     - title: GitHub
-      href: https://github.com/$OWNER
+      href: https://github.com/jawaracloud
+    - title: Blog
+      href: https://medium.com/jawaracloud
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
