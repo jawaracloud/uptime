@@ -7,6 +7,10 @@ sites:
     url: https://jawara.cloud
     expectedStatusCodes:
       - 200
+  - name: FeedssHub API
+    url: https://feedsshub-api.jawara.cloud/ping
+    expectedStatusCodes:
+      - 200
     
 assignees: # Users to assign downtime issues (optional)
   - mrofisr
