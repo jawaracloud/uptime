@@ -22,19 +22,19 @@
     "url": "https://feedsshub-api.jawara.cloud/ping",
     "icon": "https://icons.duckduckgo.com/ip3/feedsshub-api.jawara.cloud.ico",
     "slug": "feedss-hub-api",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 912,
-    "timeDay": 935,
-    "timeWeek": 912,
-    "timeMonth": 912,
-    "timeYear": 912,
+    "status": "up",
+    "uptime": "89.87%",
+    "uptimeDay": "66.41%",
+    "uptimeWeek": "89.87%",
+    "uptimeMonth": "89.87%",
+    "uptimeYear": "89.87%",
+    "time": 921,
+    "timeDay": 951,
+    "timeWeek": 921,
+    "timeMonth": 921,
+    "timeYear": 921,
     "dailyMinutesDown": {
-      "2024-06-30": 0
+      "2024-06-30": 484
     }
   }
 ]
