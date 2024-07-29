@@ -7,8 +7,12 @@ sites:
     url: https://jawara.cloud
     expectedStatusCodes:
       - 200
-  - name: FeedssHub API
+  - name: The Upwork Hub
     url: https://feedsshub-api.jawara.cloud/ping
+    expectedStatusCodes:
+      - 200
+  - name: The Overflow Bot
+    url: https://the-overflow-bot.jawaracloud.workers.dev/ping
     expectedStatusCodes:
       - 200
     
@@ -23,15 +27,17 @@ workflowSchedule:
   updateTemplate: "0 0 * * *"
   updates: "0 3 * * *"
   uptime: "*/5 * * * *"
-
+  
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: uptime.jawara.cloud
   logoUrl: https://raw.githubusercontent.com/jawaracloud/.github/b9cb60aeb27a9c0a6ea8b49f3c60d68565dbd847/jawara.svg
-  name: Jawara Cloud Uptime
   introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a uptime page Jawara Cloud service
+  favicon: https://raw.githubusercontent.com/jawaracloud/.github/b9cb60aeb27a9c0a6ea8b49f3c60d68565dbd847/jawara.svg
+  faviconSvg: https://raw.githubusercontent.com/jawaracloud/.github/b9cb60aeb27a9c0a6ea8b49f3c60d68565dbd847/jawara.svg
+  introMessage: This is a uptime page Jawara Cloud Service
+  theme: light
   navbar:
     - title: Status
       href: /
