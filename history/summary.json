@@ -22,18 +22,20 @@
     "url": "https://feedsshub-api.jawara.cloud/ping",
     "icon": "https://icons.duckduckgo.com/ip3/feedsshub-api.jawara.cloud.ico",
     "slug": "the-upwork-hub",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 858,
-    "timeDay": 713,
-    "timeWeek": 858,
-    "timeMonth": 858,
-    "timeYear": 858,
-    "dailyMinutesDown": {}
+    "time": 775,
+    "timeDay": 411,
+    "timeWeek": 775,
+    "timeMonth": 775,
+    "timeYear": 775,
+    "dailyMinutesDown": {
+      "2024-08-04": 0
+    }
   },
   {
     "name": "The Overflow Bot",
