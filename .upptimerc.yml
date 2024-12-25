@@ -11,6 +11,18 @@ sites:
     url: https://the-overflow-bot.jawaracloud.workers.dev/ping
     expectedStatusCodes:
       - 200
+  - name: Landing Page Jawara Group
+    url: https://jawaragroup.co
+    expectedStatusCodes:
+      - 200
+  - name: Landing Page Teman Hanan
+    url: https://jawaragroup.co
+    expectedStatusCodes:
+      - 200
+  - name: Islamic Wedding Invitation Website
+    url: https://islamic-wedding-invitation.vercel.app/
+    expectedStatusCodes:
+      - 200
     
 assignees: # Users to assign downtime issues (optional)
   - mrofisr
