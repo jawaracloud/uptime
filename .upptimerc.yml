@@ -16,7 +16,7 @@ sites:
     expectedStatusCodes:
       - 200
   - name: Landing Page Teman Hanan
-    url: https://jawaragroup.co
+    url: https://hanan.live
     expectedStatusCodes:
       - 200
   - name: Islamic Wedding Invitation Website
